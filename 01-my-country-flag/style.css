@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  font-family: Poppins, sans-serif;
+}
+
+#project-info {
+  position: fixed;
+  height: 30px;
+  bottom: 2rem;
+  left: 2rem;
+  color: #1a1a1a;
+  z-index: 1000;
+  border-radius: 0.7rem;
+  border: 1px solid #dbdbdb;
+  padding: 0.8rem 1.5rem;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+#project-info:hover {
+  height: 110px;
+}
+
+#project-info:hover .info-box {
+  bottom: 1rem;
+}
+
+.info-box {
+  position: absolute;
+  bottom: -5rem;
+  transition: all 0.5s;
+}
+
+.info-box div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info-box div img {
+  width: 20px;
+}
+
+.project-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.project-name img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #7a7a7a;
+}
+
+p a {
+  color: #0a0a0a;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px wavy #1a1a1a;
+}
+
+a:hover {
+  border-bottom: 1px solid #1a1a1a;
+}
+
+canvas#webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
