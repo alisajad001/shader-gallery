@@ -20,6 +20,7 @@ body {
   z-index: 1000;
   border-radius: 0.7rem;
   border: 1px solid #dbdbdb;
+  background-color: white;
   padding: 0.8rem 1.5rem;
   transition: all 0.3s;
   overflow: hidden;
